@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Le Nuove Gemme
+        </title>
+        <link rel="icon" href="../img/title/img_title.jpg" type="image/png">
+        <link rel="stylesheet" type="text/css" href="../css/cssHome.css" media="all">
+        <script src="../JavaScript/JavaScript.js"></script>
+    </head>
+    <body>
+        <div id="contenitore">
+            <!--TITOLO-->
+            <div id="header">
+                <!--Sfondo 1-->
+                <div class="sfondo1">
+                    <h1 class="text_titolo">
+                        Le Nuove Gemme
+                        <img src="../img/header/logo.png" class="logo">
+                    </h1>
+                </div>
+                <!--Sfondo 2-->
+                <div class="sfondo2">
+                    <h1 class="text_titolo">
+                        Le Nuove Gemme
+                        <img src="../img/header/logo.png" class="logo">
+                    </h1>
+                </div>
+            </div>
+        
+            <!--FORM-->
+            <form id="Form">
+                <!--COLONNA SX-->
+                <div id="colonsx">
+                    <center>
+                        <!--FOTO ROSA-->
+                        <figure>
+                            <img class="immagine" src="../img/fiori/rosa.jpg">
+                            <figcaption class="descrizione_img">
+                                <h2>
+                                    Rosa
+                                </h2>
+                                <br>
+                                <b>
+                                    PREZZO: 2,50 €
+                                </b>
+                                <p class="description">
+                                    Simbolo di amore in tutte le sue declinazioni.
+                                    <br>
+                                    Regalare delle rose è da sempre un gesto molto apprezzato perchè questo fiore porta con sè un significato
+                                    <br>
+                                    molto legato a sentimenti di amore e di affetto.
+                                </p>
+                            </figcaption>
+                            <div class="Sez_Modulo">
+                                <legend class="Leggenda_form">
+                                    Inserire quantità
+                                    <input class="number" type="number" id="q1" name="quantity" value="" min="1" max="20" placeholder="Max 20">
+                                </legend>
+                            </div>
+                        </figure>
+
+                        <!--FOTO TULIPANO-->
+                        <figure>
+                            <img class="immagine" src="../img/fiori/tulipano.jpg">
+                            <figcaption class="descrizione_img">
+                                <h2>
+                                    Tulipano
+                                </h2>
+                                <br>
+                                <b>
+                                    PREZZO: 2,90 €
+                                </b>
+                                <p class="description">
+                                    E' il simbolo delle relazioni perfette ed equilibrate, innalzandosi quindi a simbolo di vero amore.
+                                    <br>
+                                    Secondo un'antica leggenda, il tulipano nasce dalle gocce di sangue di un uomo che si tolse
+                                    <br>
+                                    la vita per amore di una donna.
+                                </p>
+                            </figcaption>
+                            <div class="Sez_Modulo">
+                                <legend class="Leggenda_form">
+                                    Inserire quantità
+                                    <input class="number" type="number" id="q3" name="quantity" value="" min="1" max="20" placeholder="Max 20">
+                                </legend>
+                            </div>
+                        </figure>
+                    </center>
+                </div>
+
+                <!--COLONNA DX-->
+                <div id="colondx">
+                    <center>
+                        <!--FOTO ORCHIDEE-->
+                        <figure>
+                            <img class="immagine" src="../img/fiori/orchidee.jpg">
+                            <figcaption class="descrizione_img">
+                                <h2>
+                                    Orchidee
+                                </h2>
+                                <br>
+                                <b>
+                                    PREZZO: 4,90 €
+                                </b>
+                                <p class="description">
+                                    Si tratta senza dubbio del fiore più elegante: rappresenta bellezza, raffinatezza, passione e amore.
+                                    <br>
+                                    In oriente simboleggia la purezza dei bambini, mentre in occidente donarla alla persona amata,<br>comunica
+                                    che è fondamentale per la nostra vita.
+                                </p>
+                            </figcaption>
+                            <div class="Sez_Modulo">
+                                <legend class="Leggenda_form">
+                                    Inserire quantità
+                                    <input class="number" type="number" id="q2" name="quantity" value="" min="1" max="20" placeholder="Max 20">
+                                </legend>
+                            </div>
+                        </figure>
+
+                        <!--FOTO GIRASOLE-->
+                        <figure>
+                            <img class="immagine" src="../img/fiori/girasole.jpg">
+                            <figcaption class="descrizione_img">
+                                <h2>
+                                    Girasole
+                                </h2>
+                                <br>
+                                <b>
+                                    PREZZO: 3,50 €
+                                </b>
+                                <p class="description">
+                                    Si tratta del fiore più gioioso e allegro che esiste, portatore di luce e allegria.
+                                    <br>
+                                    Il girasole è il fiore che é sempre stato associato al sole soprattutto per il colore dei suoi petali che vanno dal giallo
+                                    <br>
+                                    sgargiante all'arancione acceso.
+                                </p>
+                            </figcaption>
+                            <div class="Sez_Modulo">
+                                <legend class="Leggenda_form">
+                                    Inserire quantità
+                                    <input class="number" type="number" id="q4" name="quantity" value="" min="1" max="20" placeholder="Max 20">
+                                </legend>
+                            </div>
+                        </figure>
+                    </center>
+                </div>
+            </form>
+            <hr>
+            <!--SEZIONE DATI-->
+            <form id="dati">
+                <div id="Sez_dati_sx">
+                    <!--SEZIONE DESTINAZIONE-->
+                    <div class="Sez_dati_dest">
+                        <P class="p_dati_dest">
+                            Dati destinatario
+                        </P>
+                        <!--INSERIMENTO NOME E COGNOME-->
+                        <legend class="Leggenda_form">
+                            Nome e Cognome<b class="aste">*</b>
+                            <input class="comp" type="text" name="name_dest" placeholder="Nome Cognome"  value="" required>
+                        </legend>
+
+                        <!--INSERIMENTO INDIRIZZO-->
+                        <legend class="Leggenda_form">
+                            Indirizzo spedizione<b class="aste">*</b>
+                            <input class="comp" type="text" name="indirizzo"  value="" placeholder="indirizzo" required>
+                        </legend>
+
+                        <!--INSERIMENTO MESSAGGIO-->
+                        <legend class="Leggenda_form">
+                            Messaggio<b class="aste">*</b>
+                            <input class="comp_text" type="text" name="message"  value="" placeholder="testo" required>
+                        </legend>
+                    </div>
+                </div>
+                <div id="Sez_dati_dx">
+                    <div class="Sez_dati_dest">
+                        <P class="p_dati_dest">
+                            Dati mittente
+                        </P>
+                        <!--INSERIMENTO NOME E COGNOME-->
+                        <legend class="Leggenda_form">
+                            Nome e Cognome<b class="aste">*</b>
+                            <input class="comp" type="text" name="name_mit" placeholder="Nome Cognome"  value="" required>
+                        </legend>
+
+                        <!--INSERIMENTO EMAIL-->
+                        <legend class="Leggenda_form">
+                            Indirizzo email<b class="aste">*</b>
+                            <input class="comp" type="email" name="email"  value="" placeholder="email" required>
+                        </legend>
+
+                        <!--INSERIMENTO MESSAGGIO-->
+                        <legend class="Leggenda_form">
+                            Dove riportiamo il pacco per mancata consegna?<b class="aste">*</b>
+                            <input class="comp_text" type="text" name="testo"  value="" placeholder="testo" required>
+                        </legend>
+                    </div>
+                </div>
+
+                <!--TRATTAMENTO DATI PERSONALI-->
+                <div id="dati_perso">
+                    <div class="cas_dati">
+                        <legend class="Leggenda_form_dati">
+                            <b>
+                                Trattamento dati personali <b class="aste">*</b>
+                            </b>
+                        </legend>
+                        <input class="personali" type="checkbox" name="veicolo" value="Autorizzo" required>
+                            Autorizzo il trattamento dei miei dati personali, ai sensi del D. lgs. 196 del 30 giugno 2003
+                    </div>
+                </div>
+    
+                <!--INVIO-->
+                <div id="invio">
+                    <center>
+                        <input class="submit" type="submit" value="Ordina ed invia" onclick="prenota()">
+                    </center>
+                </div>                
+            </form>
+        </div>
+
+        <!--PIÃˆ DI PAGINA-->
+        <div id="footer">
+            <!--FOOTER SINISTRO-->
+            <div id="footer_img">
+                <a href="http://www.iiscopernico.edu.it/" target="_blank">
+                    <img class="img_footer" src="../img/Footer/Stemma_ITI.png" alt="Logo ITI cliccabile">
+                </a>
+            </div>
+
+            <!--FOOTER DESTRO-->
+            <div id="footer_text">
+                <div class="text_footer">
+                    <I>
+                        <a href="http://www.iiscopernico.edu.it/" target="_blank">
+                            IIS "N.Copernico - Carpeggiani"
+                        </a>
+                    </I>
+                    </br>
+                    </br>
+                    &#0169 Cavazzini Fabio
+                    </br>
+                    <a href="mailto:fabio.cavazzini@iticopernico.it">
+                        fabio.cavazzini@iticopernico.it
+                    </a>
+                    </br>
+                    Classe IV G
+                    </br>
+                    A.S. 2023 - 2024
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
